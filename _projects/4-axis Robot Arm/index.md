@@ -2,7 +2,8 @@
 layout: post
 title: 3-Axis Robot Arm
 description:  A 3-axis robotic arm with a two-finger gripper, controlled via dual joysticks using four servo motors. My first hands-on robotics project, built purely for exploration and fun.
-main-image:
+main-image: /first.jpg
+{% include image-gallery.html images="/_projects/4-axis Robot Arm/first.jpg" height="600" %}
 ---
 
 
