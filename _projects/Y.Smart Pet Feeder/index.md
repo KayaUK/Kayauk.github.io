@@ -5,7 +5,7 @@ description:  A smart, wall-mounted cat feeder with a worm gear based gate syste
 main-image: /Screenshot_14.png
 ---
 
-<img src="Screenshot_12.png" style="height:450px;">
+<img src="/_projects/Y.Smart Pet Feeder/Screenshot_14.png" style="height:450px;">
 
 At first, I tried using a worm gear mechanism inspired by ready-made models, but the motor was underpowered and kept getting clogged. Since powerful motors are quite expensive in my country, I now realize I should have explored a different transmission method from the start.
 
