@@ -16,9 +16,18 @@ At first, I tried using a worm gear mechanism inspired by ready-made models, but
         <p>This time, I secured it to the wall for better stability and upgraded to a more efficient gate system. My mom wasn’t happy with               its appearance, and since relocating it wasn’t an option, I had to rethink the design.</p>
     </div>
 </div>
-@media (max-width: 768px) {
-    div { grid-template-columns: 1fr; } /* Tek sütun */
-}
+
+<style>
+  @media (max-width: 768px) {
+    div[style*="display: flex"] {
+      flex-direction: column; /* Mobilde alt alta sırala */
+    }
+    div[style*="display: flex"] img {
+      height: auto !important; /* Oranları koru */
+      width: 100% !important; /* Resmi genişlet */
+    }
+  }
+</style>
 
 
 As the first person to wake up in my house, I had the unglamorous job of feeding our two cats every morning. Tired of the smell and inconvenience, I decided to build my own automated cat feeder.
