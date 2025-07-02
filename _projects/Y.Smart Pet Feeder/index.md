@@ -9,17 +9,16 @@ main-image: /Screenshot_14.png
 
 At first, I tried using a worm gear mechanism inspired by ready-made models, but the motor was underpowered and kept getting clogged. Since powerful motors are quite expensive in my country, I now realize I should have explored a different transmission method from the start.
 
-<img src="/_projects/Y.Smart Pet Feeder/Screenshot_13.png" style="height:400px;">
-
-This time, I secured it to the wall for better stability and upgraded to a more efficient gate system. My mom wasn’t happy with its appearance, and since relocating it wasn’t an option, I had to rethink the design.
 
 <div style="display: flex; gap: 20px; margin: 20px 0;">
-    <img src="/_projects/Y.Smart Pet Feeder/Screenshot_13.png" style="height: 300px;">
+    <img src="/_projects/Y.Smart Pet Feeder/Screenshot_13.png" style="height: 400px;">
     <div>
-        <h3>İlk Tasarım Sorunları</h3>
         <p>This time, I secured it to the wall for better stability and upgraded to a more efficient gate system. My mom wasn’t happy with               its appearance, and since relocating it wasn’t an option, I had to rethink the design.</p>
     </div>
 </div>
+@media (max-width: 768px) {
+    div { grid-template-columns: 1fr; } /* Tek sütun */
+}
 
 
 As the first person to wake up in my house, I had the unglamorous job of feeding our two cats every morning. Tired of the smell and inconvenience, I decided to build my own automated cat feeder.
