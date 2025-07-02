@@ -2,7 +2,7 @@
 layout: post
 title: Smart Pet Feeder
 description:  A smart, wall-mounted cat feeder with a worm gear based gate system, designed using Fusion 360. Born out of necessity and a picky cat owner’s aesthetic standards.
-main-image: /Screenshot_png.jpg
+main-image: /Screenshot_14.png
 ---
 
 As the first person to wake up in my house, I had the unglamorous job of feeding our two cats every morning. Tired of the smell and inconvenience, I decided to build my own automated cat feeder.
