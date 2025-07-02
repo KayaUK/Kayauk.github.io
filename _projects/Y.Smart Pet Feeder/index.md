@@ -5,6 +5,13 @@ description:  A smart, wall-mounted cat feeder with a worm gear based gate syste
 main-image: /Screenshot_14.png
 ---
 
+<img src="Screenshot_12.png" style="height:450px;">
+
+At first, I tried using a worm gear mechanism inspired by ready-made models, but the motor was underpowered and kept getting clogged. Since powerful motors are quite expensive in my country, I now realize I should have explored a different transmission method from the start.
+
+
+
+
 As the first person to wake up in my house, I had the unglamorous job of feeding our two cats every morning. Tired of the smell and inconvenience, I decided to build my own automated cat feeder.
 I began by testing off-the-shelf designs, but motors were weak and prone to jamming—plus motor prices were high in my country. To address this, I designed a worm gear-based feeding mechanism to prevent backflow and improve torque.
 The first prototype was wall-mounted for stability, using a simple gate system. However, my mom didn’t like how it looked or that it couldn’t be moved—so I had to rethink the design.
