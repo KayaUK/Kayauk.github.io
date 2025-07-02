@@ -18,28 +18,6 @@ At first, I tried using a worm gear mechanism inspired by ready-made models, but
 </div>
 
 
----
-
-<style>
-  /* Tüm resimler için mobil uyumlu stil */
-  img {
-    max-width: 100%;  /* Resmi konteyner genişliğiyle sınırla */
-    height: auto;     /* Oranları koru */
-    display: block;   /* Alt boşlukları önle */
-    margin: 10px 0;   /* Üst-alt boşluk ekle */
-  }
-
-  /* Masaüstü için özel yükseklik */
-  @media (min-width: 768px) {
-    img[style*="height:400px"] {
-      height: 400px !important; /* Sadece masaüstünde 400px yükseklik */
-      width: auto;             /* Genişliği otomatik ayarla */
-      max-width: none;         /* Maksimum genişlik kısıtlamasını kaldır */
-    }
-  }
-</style>
-
-
 
 As the first person to wake up in my house, I had the unglamorous job of feeding our two cats every morning. Tired of the smell and inconvenience, I decided to build my own automated cat feeder.
 I began by testing off-the-shelf designs, but motors were weak and prone to jamming—plus motor prices were high in my country. To address this, I designed a worm gear-based feeding mechanism to prevent backflow and improve torque.
