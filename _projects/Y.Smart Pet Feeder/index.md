@@ -17,46 +17,29 @@ At first, I tried using a worm gear mechanism inspired by ready-made models, but
     </div>
 </div>
 
+
+---
+
 <style>
-  @media (max-width: 768px) {
-    div[style*="display: flex"] {
-      flex-direction: column; /* Mobilde alt alta sırala */
-    }
-    div[style*="display: flex"] img {
-      height: auto !important; /* Oranları koru */
-      width: 100% !important; /* Resmi genişlet */
-    }
+  /* Tüm resimler için mobil uyumlu stil */
+  img {
+    max-width: 100%;  /* Resmi konteyner genişliğiyle sınırla */
+    height: auto;     /* Oranları koru */
+    display: block;   /* Alt boşlukları önle */
+    margin: 10px 0;   /* Üst-alt boşluk ekle */
   }
-</style>
 
---------------
-
-<!-- İlk resim ve metin -->
-<div style="margin: 20px 0;">
-  <img src="/_projects/Y.Smart Pet Feeder/Screenshot_12.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
-  <p>At first, I tried using a worm gear mechanism inspired by ready-made models, but the motor was underpowered and kept getting clogged. Since powerful motors are quite expensive in my country, I now realize I should have explored a different transmission method from the start.</p>
-</div>
-
-<!-- Flex yapısındaki resim ve metin -->
-<div style="display: flex; flex-direction: column; gap: 20px; margin: 20px 0;">
-  <img src="/_projects/Y.Smart Pet Feeder/Screenshot_13.png" style="max-width: 100%; height: auto;">
-  <div>
-    <p>This time, I secured it to the wall for better stability and upgraded to a more efficient gate system. My mom wasn't happy with its appearance, and since relocating it wasn't an option, I had to rethink the design.</p>
-  </div>
-</div>
-
-<style>
+  /* Masaüstü için özel yükseklik */
   @media (min-width: 768px) {
-    div[style*="display: flex"] {
-      flex-direction: row;
-      align-items: center;
-    }
-    div[style*="display: flex"] img {
-      max-height: 400px;
-      width: auto;
+    img[style*="height:400px"] {
+      height: 400px !important; /* Sadece masaüstünde 400px yükseklik */
+      width: auto;             /* Genişliği otomatik ayarla */
+      max-width: none;         /* Maksimum genişlik kısıtlamasını kaldır */
     }
   }
 </style>
+
+
 
 As the first person to wake up in my house, I had the unglamorous job of feeding our two cats every morning. Tired of the smell and inconvenience, I decided to build my own automated cat feeder.
 I began by testing off-the-shelf designs, but motors were weak and prone to jamming—plus motor prices were high in my country. To address this, I designed a worm gear-based feeding mechanism to prevent backflow and improve torque.
